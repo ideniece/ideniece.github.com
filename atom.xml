@@ -4,11 +4,11 @@
   <title><![CDATA[Justtech Blog]]></title>
   <link href="http://www.justtech.info/atom.xml" rel="self"/>
   <link href="http://www.justtech.info/"/>
-  <updated>2012-10-10T04:40:24-07:00</updated>
+  <updated>2012-10-10T05:00:10-07:00</updated>
   <id>http://www.justtech.info/</id>
   <author>
     <name><![CDATA[Yuanyuelin]]></name>
-    
+    <email><![CDATA[yuanyuelin@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
