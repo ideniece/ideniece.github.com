@@ -4,7 +4,7 @@
   <title><![CDATA[Justtech Blog]]></title>
   <link href="http://www.justtech.info/atom.xml" rel="self"/>
   <link href="http://www.justtech.info/"/>
-  <updated>2012-10-09T19:40:45-07:00</updated>
+  <updated>2012-10-09T20:41:58-07:00</updated>
   <id>http://www.justtech.info/</id>
   <author>
     <name><![CDATA[Yuanyuelin]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ssssss]]></title>
+    <link href="http://www.justtech.info/blog/2012/10/09/ssssss/"/>
+    <updated>2012-10-09T20:41:00-07:00</updated>
+    <id>http://www.justtech.info/blog/2012/10/09/ssssss</id>
+    <content type="html"><![CDATA[<p>sssssssssssssssssss</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[test-blog]]></title>
