@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://ideniece.github.com/atom.xml" rel="self"/>
-  <link href="http://ideniece.github.com/"/>
-  <updated>2012-10-09T19:20:55-07:00</updated>
-  <id>http://ideniece.github.com/</id>
+  <title><![CDATA[Justtech Blog]]></title>
+  <link href="http://www.justtech.info/atom.xml" rel="self"/>
+  <link href="http://www.justtech.info/"/>
+  <updated>2012-10-09T19:30:56-07:00</updated>
+  <id>http://www.justtech.info/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Yuanyuelin]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[test-blog]]></title>
-    <link href="http://ideniece.github.com/blog/2012/10/09/test-blog/"/>
+    <link href="http://www.justtech.info/blog/2012/10/09/test-blog/"/>
     <updated>2012-10-09T19:18:00-07:00</updated>
-    <id>http://ideniece.github.com/blog/2012/10/09/test-blog</id>
+    <id>http://www.justtech.info/blog/2012/10/09/test-blog</id>
     <content type="html"><![CDATA[<p><a href="http://ideniece.github.com">you can see more&#8230;</a></p>
 
 <br/>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[first-blog]]></title>
-    <link href="http://ideniece.github.com/blog/2012/10/07/first-blog/"/>
+    <link href="http://www.justtech.info/blog/2012/10/07/first-blog/"/>
     <updated>2012-10-07T05:30:00-07:00</updated>
-    <id>http://ideniece.github.com/blog/2012/10/07/first-blog</id>
+    <id>http://www.justtech.info/blog/2012/10/07/first-blog</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
