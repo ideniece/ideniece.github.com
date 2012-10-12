@@ -4,7 +4,7 @@
   <title><![CDATA[Justtech Blog]]></title>
   <link href="http://www.justtech.info/atom.xml" rel="self"/>
   <link href="http://www.justtech.info/"/>
-  <updated>2012-10-11T05:33:35-07:00</updated>
+  <updated>2012-10-11T23:32:25-07:00</updated>
   <id>http://www.justtech.info/</id>
   <author>
     <name><![CDATA[Yuanyuelin]]></name>
@@ -18,7 +18,37 @@
     <link href="http://www.justtech.info/blog/2012/10/09/ubuntu-error/"/>
     <updated>2012-10-09T20:41:00-07:00</updated>
     <id>http://www.justtech.info/blog/2012/10/09/ubuntu-error</id>
-    <content type="html"><![CDATA[<p>o
+    <content type="html"><![CDATA[<p>Java print:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello world!&quot;</span><span class="o">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Java println:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="o">;</span><span class="n">i</span><span class="o">&lt;=</span><span class="mi">100</span><span class="o">;</span><span class="n">i</span><span class="o">++){</span>
+</span><span class='line'> <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;i=&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">);</span>
+</span><span class='line'><span class="o">}</span>
+</span><span class='line'><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;it&#39;s over!!!!&quot;</span><span class="o">);</span>
+</span><span class='line'><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;it&#39;s not over..........................................................................................&quot;</span><span class="o">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>type the command in your terminal:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get update
+</span><span class='line'>sudo apt-get install ruby1.9.3</span></code></pre></td></tr></table></div></figure>
+
+
+<p>
 t be reported:</p>
 
 <p>You have some obsolete package versions installed. Please upgrade the following packages and check if the problem still occurs:</p>
