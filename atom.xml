@@ -4,7 +4,7 @@
   <title><![CDATA[Justtech Blog]]></title>
   <link href="http://www.justtech.info/atom.xml" rel="self"/>
   <link href="http://www.justtech.info/"/>
-  <updated>2012-10-11T23:32:25-07:00</updated>
+  <updated>2012-10-12T02:06:52-07:00</updated>
   <id>http://www.justtech.info/</id>
   <author>
     <name><![CDATA[Yuanyuelin]]></name>
@@ -38,6 +38,11 @@
 </span><span class='line'><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;it&#39;s over!!!!&quot;</span><span class="o">);</span>
 </span><span class='line'><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;it&#39;s not over..........................................................................................&quot;</span><span class="o">);</span>
 </span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<!-- more -->
 
 
 <p>type the command in your terminal:</p>
