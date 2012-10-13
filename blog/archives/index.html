@@ -12,7 +12,7 @@
   <meta name="description" content="Blog Archive 2012 ubuntu error
 Oct 09 2012 test-blog
 Oct 09 2012 first-blog
-Oct 07 2012 Recent Posts ubuntu error test-blog first-blog GitHub Repos &hellip;">
+Oct 07 2012 About me Yuanyuelin Recent Posts ubuntu error test-blog &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -60,6 +60,7 @@ Oct 07 2012 Recent Posts ubuntu error test-blog first-blog GitHub Repos &hellip;
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About me</a></li>
 </ul>
 
 </nav>
@@ -118,6 +119,11 @@ Oct 07 2012 Recent Posts ubuntu error test-blog first-blog GitHub Repos &hellip;
 <aside class="sidebar">
   
     <section>
+  <h1>About me</h1>
+  <P>Yuanyuelin</p>
+  <p><img src="/images/emailYuan.png" alt="yuanyuelin@gmail.com"/></p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -134,35 +140,6 @@ Oct 07 2012 Recent Posts ubuntu error test-blog first-blog GitHub Repos &hellip;
       </li>
     
   </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/ideniece">@ideniece</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'ideniece',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
@@ -184,9 +161,30 @@ Oct 07 2012 Recent Posts ubuntu error test-blog first-blog GitHub Repos &hellip;
 </footer>
   
 
+<script type="text/javascript">
+      var disqus_shortname = 'yuanyuelin';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
 
 
 
