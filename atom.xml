@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Justtech Blog]]></title>
+  <title><![CDATA[札客网-justtech.info]]></title>
   <link href="http://www.justtech.info/atom.xml" rel="self"/>
   <link href="http://www.justtech.info/"/>
-  <updated>2012-10-15T05:26:55-07:00</updated>
+  <updated>2012-10-15T08:33:57-07:00</updated>
   <id>http://www.justtech.info/</id>
   <author>
-    <name><![CDATA[Yuanyuelin]]></name>
+    <name><![CDATA[YuanYuelin]]></name>
     <email><![CDATA[yuanyuelin@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
