@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[札客网-justtech.info]]></title>
+  <link href="http://www.justtech.info/atom.xml" rel="self"/>
+  <link href="http://www.justtech.info/"/>
+  <updated>2012-11-26T05:05:10-08:00</updated>
+  <id>http://www.justtech.info/</id>
+  <author>
+    <name><![CDATA[YuanYuelin]]></name>
+    <email><![CDATA[yuanyuelin@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[关于在IE下超链接传递参数的问题]]></title>
+    <link href="http://www.justtech.info/blog/2012/10/15/a-problem-of-ie-in-hyperlink/"/>
+    <updated>2012-10-15T22:54:00-07:00</updated>
+    <id>http://www.justtech.info/blog/2012/10/15/a-problem-of-ie-in-hyperlink</id>
+    <content type="html"><![CDATA[<p>最近同事在开发过程中，发现一个很奇怪的问题，在<code>Internet explorer</code>上出现的，而在<code>Google Chrome</code> 和<code>Firefox</code>上都没有出现。</p>
+
+<p>首先，请求是这样的：</p>
+
+<figure class='code'><figcaption><span> (httphyperlink.html)</span> <a href='http://www.justtech.info/downloads/code/httphyperlink.html'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>BillOutQryForCCPre.do?_viewReferer=creditcard/CC/BillOutQry<span class="err">&amp;</span>para=101600000846
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>当我打开上面那个超链接的时候，发现我没能拿到<code>para</code> 这个参数的值，貌似直接就没有传到后台，
+然后当我把鼠标移动到那个链接上的时候，我发现原来我的超链接变成了这样：</p>
+
+<figure class='code'><figcaption><span> (httphyperlinkerror.html)</span> <a href='http://www.justtech.info/downloads/code/httphyperlinkerror.html'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>BillOutQryForCCPre.do?_viewReferer=creditcard/CC/BillOutQry¶=101600000846
+</span></code></pre></td></tr></table></div></figure>
+
+
+<!--more-->
+
+
+<p><img src="http://www.justtech.info/images/httpproblem.png"></p>
+
+<br/>这个时候，原来的`&amp;para`变成了`¶`符号。原来，这里的`&amp;para`被当成了特殊字符，而被转义了。  
+
+
+<p>当然，解决的办法有很多，比如</p>
+
+<ul>
+<li>1、可以交换下参数的位置，把<code>para</code>放最前面，而其他参数放后面.</li>
+<li>2、还可以把参数名改成别的，比如<code>para</code>改成<code>param</code>.</li>
+<li>3、也把请求改成POST方式的表单提交.</li>
+<li>4、还可以把参数名&amp;amp改成为<code>&amp;amp;para</code>.</li>
+</ul>
+
+
+<p>总之，这种问题应该避免，应该在开发的过程中，尽量使用有意义的参数名，可以防止随意使用名称，导致的此类问题。</p>
+
+<p>这里附上一篇常用的一些HTML特殊字符的转义，来源于<a href="http://114.xixik.com/character/">网络</a></p>
+]]></content>
+  </entry>
+  
+</feed>
