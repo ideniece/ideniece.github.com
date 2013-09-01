@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[技术札记-notetech.me]]></title>
+  <title><![CDATA[技术札记 – NoteTech.me]]></title>
   <link href="http://notetech.me/atom.xml" rel="self"/>
   <link href="http://notetech.me/"/>
-  <updated>2013-09-01T07:59:18-07:00</updated>
+  <updated>2013-09-01T08:22:14-07:00</updated>
   <id>http://notetech.me/</id>
   <author>
     <name><![CDATA[YuanYuelin]]></name>
