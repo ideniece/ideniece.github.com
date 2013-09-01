@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[札客网-justtech.info]]></title>
-  <link href="http://www.justtech.info/atom.xml" rel="self"/>
-  <link href="http://www.justtech.info/"/>
-  <updated>2012-11-26T05:05:10-08:00</updated>
-  <id>http://www.justtech.info/</id>
+  <title><![CDATA[技术札记-notetech.me]]></title>
+  <link href="http://notetech.me/atom.xml" rel="self"/>
+  <link href="http://notetech.me/"/>
+  <updated>2013-09-01T07:59:18-07:00</updated>
+  <id>http://notetech.me/</id>
   <author>
     <name><![CDATA[YuanYuelin]]></name>
     <email><![CDATA[yuanyuelin@gmail.com]]></email>
@@ -15,14 +15,14 @@
   
   <entry>
     <title type="html"><![CDATA[关于在IE下超链接传递参数的问题]]></title>
-    <link href="http://www.justtech.info/blog/2012/10/15/a-problem-of-ie-in-hyperlink/"/>
+    <link href="http://notetech.me/blog/2012/10/15/a-problem-of-ie-in-hyperlink/"/>
     <updated>2012-10-15T22:54:00-07:00</updated>
-    <id>http://www.justtech.info/blog/2012/10/15/a-problem-of-ie-in-hyperlink</id>
+    <id>http://notetech.me/blog/2012/10/15/a-problem-of-ie-in-hyperlink</id>
     <content type="html"><![CDATA[<p>最近同事在开发过程中，发现一个很奇怪的问题，在<code>Internet explorer</code>上出现的，而在<code>Google Chrome</code> 和<code>Firefox</code>上都没有出现。</p>
 
 <p>首先，请求是这样的：</p>
 
-<figure class='code'><figcaption><span> (httphyperlink.html)</span> <a href='http://www.justtech.info/downloads/code/httphyperlink.html'>download</a></figcaption>
+<figure class='code'><figcaption><span> (httphyperlink.html)</span> <a href='http://notetech.me/downloads/code/httphyperlink.html'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'>BillOutQryForCCPre.do?_viewReferer=creditcard/CC/BillOutQry<span class="err">&amp;</span>para=101600000846
 </span></code></pre></td></tr></table></div></figure>
@@ -31,7 +31,7 @@
 <p>当我打开上面那个超链接的时候，发现我没能拿到<code>para</code> 这个参数的值，貌似直接就没有传到后台，
 然后当我把鼠标移动到那个链接上的时候，我发现原来我的超链接变成了这样：</p>
 
-<figure class='code'><figcaption><span> (httphyperlinkerror.html)</span> <a href='http://www.justtech.info/downloads/code/httphyperlinkerror.html'>download</a></figcaption>
+<figure class='code'><figcaption><span> (httphyperlinkerror.html)</span> <a href='http://notetech.me/downloads/code/httphyperlinkerror.html'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='html'><span class='line'>BillOutQryForCCPre.do?_viewReferer=creditcard/CC/BillOutQry¶=101600000846
 </span></code></pre></td></tr></table></div></figure>
@@ -40,7 +40,7 @@
 <!--more-->
 
 
-<p><img src="http://www.justtech.info/images/httpproblem.png"></p>
+<p><img src="http://notetech.me/images/httpproblem.png"></p>
 
 <br/>这个时候，原来的`&amp;para`变成了`¶`符号。原来，这里的`&amp;para`被当成了特殊字符，而被转义了。  
 
