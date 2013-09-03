@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.justtech.info
-title: 札客网-justtech.info
-subtitle: 		--记录学习过程中的点滴
+url: http://notetech.me
+title: 技术札记 – NoteTech.me
+subtitle: 记录学习过程中的点滴,享受技术带来的快乐
 author: YuanYuelin 
 simple_search: http://google.com/search
 description: Just a blog.....
